@@ -1,0 +1,63 @@
+html{
+	background-color: rgb(200, 200, 200);
+}
+
+@font-face{
+	font-family: Surface;
+	src: url('/fonts/surface/Surface-Medium.otf');
+	font-family: Salaryman;
+	src: url('/fonts/Salaryman/SALARYMA.ttf');
+}
+
+html{
+	font-family: Surface;
+}
+
+blockquote{
+	font-family: Salaryman;
+	font-size: 20px;
+	border-top: 20px;
+	background: rgb(180,180,180);
+	width: 66%;
+	
+
+
+}
+
+p{
+	float: right;
+	border-bottom: 30px;
+	background: rgb(170,170,170);
+}
+
+
+/*_____________ Chat Stuff _____________ */ 
+.container {
+	width:500px;
+	margin:10px auto;
+	border: 1px solid #aaa;
+	padding:20px;
+}
+.msgs {
+	/*
+	width: 420px;
+	float: right;*/
+	height:170px;
+	overflow-y: scroll;
+	margin-bottom: 20px;
+	border:1px solid #888;
+	border-radius: 3px;
+	padding:15px;
+}
+
+textarea {
+	
+	width:100%;
+	height:35px;
+	float: right;
+}
+
+#transmissionBtn {
+	display: block;
+	width: 200px;
+}
